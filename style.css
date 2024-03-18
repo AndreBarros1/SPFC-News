@@ -1,0 +1,47 @@
+body{
+    background-image: url(./img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(97, 39, 39);
+    font-size: 1.6em;
+}
+
+.navbar li{
+    float: left;
+}
+
+#logo{
+    width: 10%;
+}
+
+#logo img{
+    position: absolute;
+    width: 10%;
+    top: 20px;
+    left: 800px;
+}
+
